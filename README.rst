@@ -2,7 +2,8 @@
 uptime
 ======
 
-Formulas to set up and configure an uptime server.
+Formulas to set up and configure an `uptime server
+<https://github.com/fzaninotto/uptime>`_.
 
 .. note::
 
