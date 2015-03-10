@@ -1,0 +1,14 @@
+# managed by salt
+server {
+        listen   80;
+        server_name  {{ pillar['uptime_server_name'] }};
+
+        access_log  /var/log/nginx/access.log;
+
+
+        location / {
+                proxy_pass      http://localhost:8082/;
+                include         /etc/nginx/proxy_params;
+        }
+}
+
