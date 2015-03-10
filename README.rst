@@ -42,9 +42,11 @@ Example Pillar:
 
   mongodb_user: uptime
   mongodb_password: uptime
-  uptime_server_name: uptime.example.org
-  # optionnal webpagetest api key
+  # optional webpagetest api key
   #webpagetest_key: 1234567
+
+  # optional for uptime.nginx
+  #uptime_server_name: uptime.example.org
 
 
 To add some monitored URLs:

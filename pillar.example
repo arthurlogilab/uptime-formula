@@ -1,0 +1,15 @@
+# ``uptime`` formula configuration:
+mongodb_user: uptime
+mongodb_password: uptime
+# optional webpagetest api key
+#webpagetest_key: 1234567
+
+# optional for uptime.nginx 
+#uptime_server_name: uptime.example.org
+
+# optional for uptime.websites
+#uptime:
+#  application_url: http://localhost:5000
+#  urls: 
+#    - http://example.org/
+#    - http://example.com/
